@@ -1,0 +1,70 @@
+/*
+
+---01-TYPOGRAPHY
+
+- Line height: 1
+
+- Font weight: 
+  Default: 400
+
+- Font Size System (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+---02-COLOURS
+
+- Primary: #e67e22
+- Tints:
+- Shades:
+- Accent:
+- Greys:
+
+---05-SHADOWS
+
+---06-BORDER-RADIUS
+
+---07-WHITESPACE
+
+- Spacing System (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+*/
+
+*/ * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /*font-size: 10px; 
+  10px / 16 = 0.625 */
+  font-size: 62.5%;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
+}
+
+/*.test {
+  NOTE: we always use rem for responsive websites, not px!
+  max-width: 50rem;
+  background-color: red;
+  padding: 4rem;
+  font-size: 2rem;
+  color: #fff;
+  1rem = 16px  -> 50rem = 800px
+}*/
+
+.hero {
+  max-width: 130rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.hero-img {
+  width: 100%;
+}
