@@ -7,6 +7,7 @@ Default: 1
 1.05
 1.2
 1.6
+1.8
 
 - Letter spacing:
 -0.5px
@@ -240,6 +241,7 @@ body {
 
 .list-item {
   font-size: 1.8rem;
+  line-height: 1.2;
 }
 
 .list-icon {
