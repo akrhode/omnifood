@@ -28,11 +28,12 @@
     <title>Omnifood</title>
   </head>
   <body>
-    <header class="header">
+    <header class="header nav-open">
       <a href="#">
         <img class="logo" alt="Omnifood-Logo" src=img/omnifood-logo.png>
       </a>
-      <nav class="main-nav"></nav>
+
+      <nav class="main-nav">
       <ul class="main-nav-list">
         <li><a class="main-nav-link" href="#">How it works</a></li>
         <li><a class="main-nav-link" href="#">Meals</a></li>
@@ -40,7 +41,14 @@
         <li><a class="main-nav-link" href="#">Pricing</a></li>
         <li><a class="main-nav-link nav-cta" href="#">Try for free</a></li>
       </ul>
+    </nav>
+
+      <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+      </button>
     </header>
+
     <main>
       <section class="section-hero">
         <div class="hero">
@@ -80,6 +88,7 @@
           </div>
         </div>
       </section>
+
       <section class="section-featured"></section>
       <div class="container">
         <h2 class="heading-featured-in">As featured in</h2>
@@ -104,6 +113,7 @@
             Your daily dose of healthy food in 3 simple steps
           </h2>
         </div>
+
         <div class="container grid grid--2-cols grid--center-v">
           <!--Step 01-->
           <div class="step-text-box">
@@ -145,6 +155,7 @@
               your own recipes.
             </p>
           </div>
+
           <!--Step 03-->
           <div class="step-text-box">
             <p class="step-number">03</p>
