@@ -3,7 +3,7 @@
 Capstone project from Jonas Schmedtmann’s course 'Build Responsive Real-World Websites with HTML and CSS'. This is a fully responsive, static website for a fictitious delivery company called ‘Omnifood’. The website is purely built with HTML and CSS, as well as a small portion of JavaScript.
 
 <p> 
-Building this project put my knowledge about HTML and CSS to the test, in particular about CSS grid and flexbox. It also deepened my knowledge about web design, i.e., layout principles, the use of fonts, colors, and icons. I also applied my knowledge about responsive web design (breakpoints and media queries), smooth scrolling, image optimization, browser support, performance testing with Lighthouse, and deployment. My work on this project included building:
+Building this project put my knowledge about HTML and CSS to the test, in particular about flexbox and CSS grid. It also deepened my knowledge about web design, i.e., layout principles, the use of fonts, colors, and icons. I also applied my knowledge about responsive web design (breakpoints and media queries), smooth scrolling, image optimization, browser support, performance testing with Lighthouse, and deployment. My work on this project included building:
 <ul>
 <li>a meta description and favicon</li>
 <li>a sticky navigation bar with smooth scrolling</li>
